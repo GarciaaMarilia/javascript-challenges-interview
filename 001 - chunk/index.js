@@ -8,16 +8,4 @@ function chunk(arr, size) {
  return newChunk;
 }
 
-// function chunk(arr, size) {
-//  const newChunk = [];
-//  let index = 0;
-
-//  while (index < arr.length) {
-//   newChunk.push(arr.slice(index, index + size));
-//   index += size;
-//  }
-
-//  return newChunk;
-// }
-
 module.exports = chunk;
