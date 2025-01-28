@@ -4,7 +4,7 @@ test("permutations function exists", () => {
  expect(typeof permutations).toEqual("function");
 });
 
-test("Finds the permutations", () => {
+test("Find the permutations", () => {
  // Basic tests
  expect(permutations(1)).toEqual([1]);
  expect(permutations(12)).toEqual([12, 21]);
